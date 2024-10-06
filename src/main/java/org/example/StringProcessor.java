@@ -2,7 +2,7 @@ package org.example;
 
 public class StringProcessor {
     public boolean isStrongPassword(String password) {
-        return password.matches("(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,}");
+        return password.matches("(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#&()–{}:;',?/*~$^+=<>]).{8,}");
     }
 
     public int calculateDigits(String sentence) {
